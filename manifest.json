@@ -1,0 +1,19 @@
+{
+    "name": "SA + Productmate",
+    "version": "1.0",
+    "description": "Add some functionality to SA",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab"
+    ],
+    "host_permissions": [
+        "https://simpleanalytics.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://simpleanalytics.com/*"],
+            "js": ["functions.js", "script.js"],
+            "css": ["style.css"]
+        }
+    ]
+}

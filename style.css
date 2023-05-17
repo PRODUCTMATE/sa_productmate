@@ -1,0 +1,16 @@
+.pages td {
+    height: 50px !important;
+}
+.visitors-count {
+    opacity: 0.5;
+    margin-top: 5px;
+}
+ /* make the page wider */
+.content {
+    max-width: 1200px !important;
+}
+.pm-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
